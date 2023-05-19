@@ -1,0 +1,7 @@
+version: '3'
+services:
+    www:
+        build: web
+        network_mode: bridge
+        ports:
+            - 80:8099
